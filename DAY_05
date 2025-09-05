@@ -1,0 +1,24 @@
+#myName=input("Enter your name: ")
+#if myName == "Alice": 
+  # print("Hi, Alice.")
+   #print("Are you the same Alice from  the wonderland?") 
+# This line will be executed no matter what the user inputs
+#else:
+   #print("Who on earth are you?")
+#catsOrDogs = input("Are you a cat person? Or a dog person?: ")
+#if catsOrDogs = "cat":
+  #print("Meow")
+#else:
+  #print("Woof")
+   
+print("Which character are you from 'Avengers?'")
+print()
+print("Answer these questions and let's find out.")
+print()
+print("Please use Y or N for yes and no.")
+likeGreen = input("Do you like the color green?: ")
+if likeGreen == "Y":
+  print("You must be the Hulk!")
+IronIsCool = input("Do you think building robots is cool?: ")  
+if IronIsCool == "Y":
+  print("You must be Iron Man. Cool suit!")
