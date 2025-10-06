@@ -1,0 +1,22 @@
+print("STAR WARS NAME GENERATOR")
+
+# Prompt for input (shortened prompt message)
+print("Enter your first name, last name,")
+print("mother's maiden name, and birth city (separated by spaces):")
+user_input = input().split()
+
+# Check if enough inputs were given
+if len(user_input) < 4:
+    print("Please enter exactly four values, separated by spaces.")
+else:
+    first = user_input[0].strip()
+    last = user_input[1].strip()
+    maiden = user_input[2].strip()
+    city = user_input[3].strip()
+
+    # Create Star Wars name
+    part1 = first[:3].title() + last[:3].lower()
+    part2 = maiden[:2].title() + city[-3:].lower()
+    name = f"{part1} {part2}"
+
+    print(f"Your Star Wars name is {name}")
