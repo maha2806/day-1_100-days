@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>My Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+
+  <h1>David's Portfolio</h1>
+  <h2>Day 56 Solution</h2>
+  <p>So, day 56 was all about using csv reading and file and folder manipulation to make 100 files in dozens of folders. This was tricky because the names of the folders and files were based on the top 100 streaming songs and so weren't simple to encode.</p>
+<a href="https://replit.com/@DavidAtReplit/Day-056-Solution#main.py"><img src="images/56.png" width="500px"></a>
+  
+  <script src="script.js"></script>
+
+ <!--
+  This script places a badge on your repl's full-browser view back to your repl's cover
+  page. Try various colors for the theme: dark, light, red, orange, yellow, lime, green,
+  teal, blue, blurple, magenta, pink!
+  -->
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script> 
+</body>
+
+</html>
+
+
+
+
+###csss
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: #0e1525;
+  color: white;
+}
+
+h1, h2 {
+  font-family: monospace;
+  font-weight: extra-bold;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 22px;
+}
+
+p {
+  font-size: 12px;
+  font-family: sans-serif;
+  background-color: #1c2333;
+  padding: 20px;
+}
+img {
+  background-color: #1c2333;
+  padding: 20px;
+  display:block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
